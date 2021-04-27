@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Task</string>
+    <string name="title_task_list">Your Tasks</string>
+    <string name="title_task_detail">Task Details</string>
+    <string name="itemCreateTask">Create</string>
+    <string name="TaskTitle">Task Title</string>
+    <string name="TaskPriority">Priority</string>
+    <string name="TaskDueDate">Due date</string>
+    <string name="TaskDescription">Description</string>
+    <string name="btnOk">OK</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="delete_all_task">Delete All Task</string>
+    <string name="delete">DELETE</string>
+    <string name="back">BACK</string>
+    <string name="Taskcategory">Category</string>
+    <string name="weekly">Weekly</string>
+    <string name="pick_time">Pick Time</string>
+    <string name="SortByPrio">Priority</string>
+    <string name="showWeeklyDiagram">Show Weekly Diagram</string>
+    <string name="title_activity_bar_chart">BarChart</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="SortByDate">DueDate</string>
+    <string name="SortByCategory">Category</string>
+    <string name="sort_by">Sort By</string>
+    <string name="Google_Calendar">Open Google Calendar</string>
+    <string name="weekly_task">Weekly Task</string>
+    <string name="hide_past_events">Hide past events</string>
+    <string name="show_past_events">Show past events</string>
+    <string name="exportEvent">Export event into Calendar</string>
+    <string name="exportAll">Export all event into calendar</string>
+</resources>

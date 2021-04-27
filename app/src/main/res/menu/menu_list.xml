@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/itemDeleteAll"
+        android:title="@string/delete_all_task"/>
+    <item android:id="@+id/SortBy"
+        android:title="@string/sort_by">
+        <menu>
+            <item android:id="@+id/SortByPrio"
+                android:title="@string/SortByPrio"/>
+            <item android:id="@+id/SortByDate"
+                android:title="@string/SortByDate"/>
+            <item android:id="@+id/SortByCategory"
+                android:title="@string/SortByCategory"/>
+        </menu>
+    </item>
+    <item android:id="@+id/GoogleCalendar"
+        android:title="@string/Google_Calendar"/>
+    <item android:id="@+id/ExportAll"
+        android:title="@string/exportAll"/>
+    <item android:id="@+id/PastEvent"
+        android:title="@string/hide_past_events"/>
+</menu>

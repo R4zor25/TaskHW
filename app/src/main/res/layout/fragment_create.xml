@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:stretchColumns="1">
+
+    <TableRow>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_column="1"
+                android:gravity="end"
+                android:text="@string/TaskTitle" />
+
+        <EditText
+                android:id="@+id/etTaskTitle"
+                android:width="200dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_column="1"
+            android:gravity="end"
+            android:text="@string/Taskcategory" />
+        <Spinner
+            android:id="@+id/spnrcategory"
+            android:width="200dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_column="1"
+                android:gravity="end"
+                android:text="@string/TaskPriority" />
+
+        <Spinner
+            android:id="@+id/spnrTaskPriority"
+            android:width="200dp" />
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_column="1"
+                android:gravity="end"
+                android:text="@string/TaskDescription" />
+
+        <EditText
+                android:id="@+id/etTaskDescription"
+                android:width="200dp"
+                android:text=""/>
+
+    </TableRow>
+        <CheckBox android:id="@+id/checkbox_weekly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/weekly"/>
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_column="1"
+            android:gravity="end"
+            android:text="@string/TaskDueDate" />
+
+        <TextView
+            android:id="@+id/tvTaskDueDate"
+            android:width="200dp"
+            android:gravity="center"
+            android:textSize="20dp" />
+
+    </TableRow>
+
+    <TimePicker
+        android:id="@+id/time_picker"
+        android:visibility="gone" />
+
+    <TableRow>
+
+        <Button
+                android:id="@+id/btnCreateTask"
+                android:layout_width="wrap_content"
+                android:layout_column="1"
+                android:gravity="end"
+                android:text="@string/btnOk" />
+
+        <Button
+                android:id="@+id/btnCancelCreateTask"
+                android:layout_width="wrap_content"
+                android:gravity="left"
+                android:text="@string/btnCancel" />
+
+    </TableRow>
+
+</TableLayout>
